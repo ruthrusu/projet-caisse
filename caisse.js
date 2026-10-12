@@ -11,3 +11,5 @@ if(montant_total_achat <= budget_du_client){
     console.log("Budget suffisant")
 } else{console.log("Budget suffisant")}
 console.log(`Montant total = ${budget_du_client} FCFA`);
+for(let i = 1; i <= 5; i++){
+    console.log(`Achat numéro ${i}`)}
