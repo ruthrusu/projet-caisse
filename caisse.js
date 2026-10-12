@@ -17,3 +17,4 @@ if(montant_total_achat <= budget_du_client){
 console.log(" ");
 for(let i = 1; i <= 5; i++){
     console.log(`Achat numéro ${i}`)}
+    console.log(" ");
