@@ -6,8 +6,8 @@ let quantité_stylo = 3;
 const montant_cahiers = prix_dun_cahier + quantité_cahier;
 const montant_stylos = prix_dun_stylos + quantité_stylo;
 const montant_total_achat = montant_cahiers + montant_stylos;
+console.log("===== CAISSE =====");
 if(montant_total_achat <= budget_du_client){
-    console.log("Budget suffusant")
+    console.log("Budget suffisant")
 } else{console.log("Budget suffisant")}
 console.log(`Montant total = ${budget_du_client} FCFA`);
- 
